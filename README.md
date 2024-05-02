@@ -7,7 +7,7 @@ Le CV de John Doe est une application web qui présente le profil professionnel 
 ## Installation
 
 Cloner le dépôt:
-git clone https://github.com/votre-nom/utilisateur/projet.git
+git clone [https://github.com/votre-nom/utilisateur/projet.git](https://github.com/ElouanLB/projet-react)
 
 Accéder au répertoire du projet:
 cd projet-react
