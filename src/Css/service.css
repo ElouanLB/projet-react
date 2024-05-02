@@ -1,0 +1,57 @@
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Utilisation de la hauteur à 100% pour aligner verticalement */
+}
+
+h1 {
+    padding: 30px;
+}
+
+
+.blue-line-service {
+    border-top: 2px solid #0d6efd;
+}
+
+.ux-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px; /* Réduire le padding pour réduire l'espace intérieur */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 70px 50px 170px 50px ;
+    text-align: center;
+}
+
+.ux-container:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(205, 225, 248, 0.5); /* #cde1f8 with some transparency */
+    z-index: -1;
+}
+
+.ux-image {
+    transition: all 0.3s ease; /* Smooth transition for the icon */
+}
+
+.ux-container:hover .ux-image {
+    filter: brightness(50%); /* Adjust brightness of the icon on hover */
+}
+
+.ux-image {
+    max-width: 200px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+
